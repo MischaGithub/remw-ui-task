@@ -1,18 +1,33 @@
-# Welcome to React Router!
+# REMW UI Task
 
-A modern, production-ready template for building full-stack React applications using React Router.
+I redesigned the user interface of the existing React project to give it a cleaner and more modern look, while **retaining all original functionality**—specifically, the ability to select a skip.
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/remix-run/react-router-templates/tree/main/default)
+## ✨ What I Did
 
-## Features
+- Updated the layout, colors, typography, and spacing for a streamlined appearance.
+- Kept the core feature of “select a skip” fully functional—no logic or behavior changes.
+- Focused solely on visual polish, maintaining a minimal and straightforward experience.
 
-- 🚀 Server-side rendering
-- ⚡️ Hot Module Replacement (HMR)
-- 📦 Asset bundling and optimization
-- 🔄 Data loading and mutations
-- 🔒 TypeScript by default
-- 🎉 TailwindCSS for styling
-- 📖 [React Router docs](https://reactrouter.com/)
+## 🔗 Live Preview (CodeSandbox)
+
+You can preview the updated UI here:  
+👉 [https://codesandbox.io/p/sandbox/github/MischaGithub/remw-ui-task](https://codesandbox.io/p/sandbox/github/MischaGithub/remw-ui-task)
+
+## 🛠️ How to Run Locally
+
+1. **Clone the repo**
+
+```bash
+git clone https://github.com/MischaGithub/remw-ui-task.git
+cd remw-ui-task
+
+
+1. **Clone the repo**
+
+```bash
+git clone https://github.com/MischaGithub/remw-ui-task.git
+cd remw-ui-task
+
 
 ## Getting Started
 
@@ -24,64 +39,7 @@ Install the dependencies:
 npm install
 ```
 
-### Development
 
-Start the development server with HMR:
 
-```bash
-npm run dev
-```
 
-Your application will be available at `http://localhost:5173`.
 
-## Building for Production
-
-Create a production build:
-
-```bash
-npm run build
-```
-
-## Deployment
-
-### Docker Deployment
-
-To build and run using Docker:
-
-```bash
-docker build -t my-app .
-
-# Run the container
-docker run -p 3000:3000 my-app
-```
-
-The containerized application can be deployed to any platform that supports Docker, including:
-
-- AWS ECS
-- Google Cloud Run
-- Azure Container Apps
-- Digital Ocean App Platform
-- Fly.io
-- Railway
-
-### DIY Deployment
-
-If you're familiar with deploying Node applications, the built-in app server is production-ready.
-
-Make sure to deploy the output of `npm run build`
-
-```
-├── package.json
-├── package-lock.json (or pnpm-lock.yaml, or bun.lockb)
-├── build/
-│   ├── client/    # Static assets
-│   └── server/    # Server-side code
-```
-
-## Styling
-
-This template comes with [Tailwind CSS](https://tailwindcss.com/) already configured for a simple default starting experience. You can use whatever CSS framework you prefer.
-
----
-
-Built with ❤️ using React Router.
